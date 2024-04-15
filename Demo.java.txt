@@ -1,0 +1,10 @@
+public class WhileLoop{
+	public static void main(String [] args){
+
+	int digit =100;
+	digit = 100;
+		for(int digit =100;  < 100; digits++){
+		System.out.print("Welcome to Semi colon!" + digit);
+		}
+	}
+}
