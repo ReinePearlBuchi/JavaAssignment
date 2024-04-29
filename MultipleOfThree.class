@@ -1,0 +1,9 @@
+Êþº¾   A 
+       java/lang/Object <init> ()V	  	  
+ 
+  java/lang/System out Ljava/io/PrintStream;
+       java/io/PrintStream  println (I)V   MultipleOfThree Code LineNumberTable main ([Ljava/lang/String;)V 
+StackMapTable 
+SourceFile MultipleOfThree.java !                    *· ±            	       L     <d£ h<²  ¶ 
+§ÿï±                  	  
+      ü       

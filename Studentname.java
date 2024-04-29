@@ -19,15 +19,7 @@ import java.util.Scanner;
 
 			
 
-if {
-				 (totalOfStudentScore = > 50);
-				System.out.print("Student Passed by 28%d ");
-				}
 
-			else {
-				System.out.print("Student Failed by 28%d ");
-			}
-				
 
 }
 

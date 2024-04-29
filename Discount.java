@@ -1,22 +1,9 @@
-import java.util.Scanner;
-	public class Discount{
-		public static void main(String[] args){
-
-		Scanner scanner = new Scanner(System.in);
+price = int(input("Enter a number: " ))
+discount = int(input("Enter a discount: " ))
 
 
- 		System.out.print("Enter a number: ");
-		int Number = scanner.nextInt();
+total = price * discount / 100 
 
-		System.out.print("Enter a discount: ");
-		int Number2 = scanner.nextInt();
+discounted_price = price - total
 
-		float Sum = Number * Number2 / 100 ;
-		float Total = Sum - Number;
-		System.out.print(Total);
-		
-		
-		
-
-		}
-	}
+print (discounted_price)

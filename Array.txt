@@ -1,0 +1,384 @@
+Array is a collection of elements of same type. For example an int array contains integer elements and a String array contains String elements. The elements of Array are stored in contiguous locations in the memory.
+
+This is how an array looks like:
+
+int number[] = new int[10]
+
+Here number is the array name. The type of the array is integer, which means it can store integer values. The size of the array is 10.
+
+Array works on an index-based system. In the above array, number[0] represents the first element of the array, number[1] represents the second element of the array and so on. The index of array starts from 0 and ends at array_size-1. In the above example, the index of first element is 0 and index of 10th element is 9.
+
+Declaration, Instantiation and Initialization of Array in Java
+
+This is how we declare, instantiate and initialize an array.
+
+int number[]; //array declaration
+number[] = new int[10]; //array instantiation
+number[0] = 10; //array Initialization
+number[1] = 20; //array Initialization
+
+
+Access the element in an Array
+
+public class JavaExample{
+  public static void main(String args[]){
+    //array declaration, instantiation and initialization
+    int number[] = new int[10]; //array instantiation
+
+    //print array elements
+    //length property return the size of the array
+    for(int i=0;i<number.length;i++)
+      System.out.println(number[i]);
+  }
+}
+
+
+
+[4/6/2024 12:33 PM] Eniola Semi Colon : Part 2(A new file copy and paste the code from part 1 to continue):(While loop)
+The same app from part 1: you are only upgrading it.
+Now the user wants to be able to input the amount of item he wants to calculate and also he wants to be able to input the percentage discount he applies for his customers if the total cost of all that the customer bought is above or equal 200 naira:
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please enter number of item purchased: 3
+Please Enter percentage discount: 5
+Please Enter cost for item 1 : 40
+Please Enter cost for item 2 : 70
+Please Enter cost if item13 : 70
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 210
+Discounted cost:199.5(Discount applied)
+Thanks for your patronage!
+[4/6/2024 12:33 PM] Eniola Semi Colon : Part 3(A new file copy and paste the code from part 2 to continue):(While loop)
+ The same app  from part 2: you are only upgrading it.
+Now the user wants to keep inputting cost of items till he types -1
+
+
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please Enter percentage discount: 5
+Please Enter cost for item 1 or -1 to quit : 40
+Please Enter cost for item 2 or -1 to quite  : 6
+Please Enter cost for item 3 or -1 to quite : 70
+Please Enter cost if item 4 or -1 to quite : -1
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+[4/6/2024 12:33 PM] Eniola Semi Colon : Part 4(for loop, create a new file copy and paste the app from part 2):
+ The same app from part 2, you are only upgrading it.
+Now the user wants to be able to input the amount of item he wants to calculate and also he wants to be able to input the percentage discount he applies for his customers if the total cost of all that the customer bought is above or equal 200 naira:(Replace the while loop with a for loop)
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please enter number of item purchased: 3
+Please Enter percentage discount: 5
+Please Enter cost for item 1 : 40
+Please Enter cost for item 2 : 6
+Please Enter cost if item13 : 70
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+[4/6/2024 12:33 PM] Eniola Semi Colon : Part 5(Do while):
+A new file copy and paste the code from part 3 to continue.
+ The same app  from part 3: you are only upgrading it.
+Now the user wants to keep inputting cost of items till he types -1
+
+
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please Enter percentage discount: 5
+Please Enter cost for item 1 or -1 to quit : 40
+Please Enter cost for item 2 or -1 to quite  : 6
+Please Enter cost for item 3 or -1 to quite : 70
+Please Enter cost if item 4 or -1 to quite : -1
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+[4/6/2024 12:33 PM] Eniola Semi Colon : Part 6:
+We have an E-store and you are to create a purchase calculator app. This app collect the customer names and then calculates for 3 items names and their cost, then removes 10 percent discount from the total fee if the total cost of all that the customer bought is above or equal 200 naira :(loop)
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+What is name of item 1: Tissue
+How much is it: 50
+What is the name of item 2: bottle water 
+How much is it: 200
+What is the name of item:  Pampas
+How much is it: 40
+
+Customer Name: Musah Jennifer
+
+Total item         cost
+Tissue                 50
+Bottle water      200
+Pampas               40
+
+Total cost: 290
+
+Discounted cost: 284.2
+Thanks for your patronage!
+
+
+
+\
+
+[4/5/2024 7:35 PM] Eniola Semi Colon : Part 2(A new file copy and paste the code from part 1 to continue):(While loop)
+The same app from part 1: you are only upgrading it.
+Now the user wants to be able to input the amount of item he wants to calculate and also he wants to be able to input the percentage discount he applies for his customers if the total cost of all that the customer bought is above or equal 200 naira:
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please enter number of item purchased: 3
+Please Enter percentage discount: 5
+Please Enter cost for item 1 : 40
+Please Enter cost for item 2 : 70
+Please Enter cost if item13 : 70
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 210
+Discounted cost:199.5(Discount applied)
+Thanks for your patronage!
+[4/5/2024 7:35 PM] Eniola Semi Colon : Part 3(A new file copy and paste the code from part 2 to continue):(While loop)
+ The same app  from part 2: you are only upgrading it.
+Now the user wants to keep inputting cost of items till he types -1
+
+
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please Enter percentage discount: 5
+Please Enter cost for item 1 or -1 to quit : 40
+Please Enter cost for item 2 or -1 to quite  : 6
+Please Enter cost for item 3 or -1 to quite : 70
+Please Enter cost if item 4 or -1 to quite : -1
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+[4/5/2024 7:35 PM] Eniola Semi Colon : Part 4(for loop, create a new file copy and paste the app from part 2):
+ The same app from part 2, you are only upgrading it.
+Now the user wants to be able to input the amount of item he wants to calculate and also he wants to be able to input the percentage discount he applies for his customers if the total cost of all that the customer bought is above or equal 200 naira:(Replace the while loop with a for loop)
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please enter number of item purchased: 3
+Please Enter percentage discount: 5
+Please Enter cost for item 1 : 40
+Please Enter cost for item 2 : 6
+Please Enter cost if item13 : 70
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+[4/5/2024 7:35 PM] Eniola Semi Colon : Part 5(Do while):
+A new file copy and paste the code from part 2 to continue.
+ The same app  from part 2: you are only upgrading it.
+Now the user wants to keep inputting cost of items till he types -1
+
+
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please Enter percentage discount: 5
+Please Enter cost for item 1 or -1 to quit : 40
+Please Enter cost for item 2 or -1 to quite  : 6
+Please Enter cost for item 3 or -1 to quite : 70
+Please Enter cost if item 4 or -1 to quite : -1
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+[4/5/2024 7:35 PM] Eniola Semi Colon : Part 5(Do while):
+A new file copy and paste the code from part 3 to continue.
+ The same app  from part 3: you are only upgrading it.
+Now the user wants to keep inputting cost of items till he types -1
+
+
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please Enter percentage discount: 5
+Please Enter cost for item 1 or -1 to quit : 40
+Please Enter cost for item 2 or -1 to quite  : 6
+Please Enter cost for item 3 or -1 to quite : 70
+Please Enter cost if item 4 or -1 to quite : -1
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+[4/5/2024 7:35 PM] Eniola Semi Colon : Part 6:
+We have an E-store and you are to create a purchase calculator app. This app collect the customer names and then calculates for 3 items names and their cost, then removes 10 percent discount from the total fee if the total cost of all that the customer bought is above or equal 200 naira :(loop)
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+What is name of item 1: Tissue
+How much is it: 50
+What is the name of item 2: bottle water 
+How much is it: 200
+What is the name of item:  Pampas
+How much is it: 40
+
+Customer Name: Musah Jennifer
+
+Total item         cost
+Tissue                 50
+Bottle water      200
+Pampas               40
+
+Total cost: 290
+
+Discounted cost: 284.2
+Thanks for your patronage!
+
+
+
+\
+[4/4/2024 3:47 PM] +234 704 884 0550: Part 1: 
+
+We have an E-store and you were to create a purchase calculator app. This app collect the Customer names and then calculates for 10 items then removes 10 percent discount from the total fee.
+if the total cost of all the that the customer bought is above or equal 200 naira:(While loop)
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please Enter cost for item 1: 40
+Please Enter cost for item 2: 6
+(And so on)
+Please Enter cost if item 10: 80
+
+Customer Name: Musah Jennifer
+Original cost: 126
+Discounted cost: 0 (no discount added)
+Thanks for your patronage!
+[4/4/2024 3:59 PM] +234 905 902 6488: Part 4(for loop, create a new file copy and paste the app from part 2):
+ The same app from part 2, you are only upgrading it.
+Now the user wants to be able to input the amount of item he wants to calculate and also he wants to be able to input the percentage discount he applies for his customers if the total cost of all that the customer bought is above or equal 200 naira:(Replace the while loop with a for loop)
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please enter number of item purchased: 3
+Please Enter percentage discount: 5
+Please Enter cost for item 1 : 40
+Please Enter cost for item 2 : 6
+Please Enter cost if item13 : 70
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+[4/5/2024 1:04 AM] Eniola Semi Colon : Part 6:
+We have an E-store and you are to create a purchase calculator app. This app collect the customer names and then calculates for 3 items names and their cost, then removes 10 percent discount from the total fee if the total cost of all that the customer bought is above or equal 200 naira :(loop)
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+What is name of item 1: Tissue
+How much is it: 50
+What is the name of item 2: bottle water 
+How much is it: 200
+What is the name of item:  Pampas
+How much is it: 40
+
+Customer Name: Musah Jennifer
+
+Total item         cost
+Tissue                 50
+Bottle water      200
+Pampas               40
+
+Total cost: 290
+
+Discounted cost: 284.2
+Thanks for your patronage!
+
+
+
+\
+[4/5/2024 1:47 AM] Eniola Semi Colon : Part 5(Do while):
+A new file copy and paste the code from part 3 to continue.
+ The same app  from part 3: you are only upgrading it.
+Now the user wants to keep inputting cost of items till he types -1
+
+
+
+Output:
+Welcome to E-Store:
+Please enter Customer Name: Jennifer Musah
+Please Enter percentage discount: 5
+Please Enter cost for item 1 or -1 to quit : 40
+Please Enter cost for item 2 or -1 to quite  : 6
+Please Enter cost for item 3 or -1 to quite : 70
+Please Enter cost if item 4 or -1 to quite : -1
+
+Customer Name: Musah Jennifer
+Number of item bought: 3
+Percentage discount: 5
+Original cost: 116
+Discounted cost: 0
+Thanks for your patronage!
+
+1 Write a loop to print numbers from 1 to 10.
+
+2 Calculate the factorial of a number using a loop.
+3 Print Fibonacci series using a loop.
+
+4 Check if a given number is prime using a loop.
+5 Reverse a given number using a loop.
+Find the sum of digits of a number using a loop.
+6 Print the multiplication table of a number using a loop from 1 - 10.
+7 Find the largest element in an array using a loop.
+8 Find the second largest element in an array using a loop.
+9 Count the number of vowels in a string using a loop.
+10 Check if a string is a palindrome using a loop.
+11 Print the ASCII value of characters in a string using a loop.
+
+12 Calculate the power of a number using a loop.
+13 Find the factorial of each number in an array using a loop.
+14 Check if an array is sorted in ascending order using a loop.
+Reverse an array using a loop.
+15 Remove duplicates from an array using a loop.

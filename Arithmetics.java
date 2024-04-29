@@ -1,26 +1,21 @@
 import java.util.Scanner;
-	public class Arithmetics{
+	public class Arithmetic{
 		public static void main(String[] args){
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in)();
 
-
-		System.out.print("Enter Student first score: ");
-		studentScore = scanner.nextInt();
+		System.out.print("Enter first number: ");
+		int firstNumber = scanner.nextInt();
 	
-		System.out.print("Enter Student second score: ");
-		int studentSecondScore = scanner.nextInt();
+		System.out.print("Enter second number: ");
+		int secondNumber = scanner.nextInt();
 		
 	
-		
-		int sumOfStudentScore = StudentFirstScore + StudentOfSecondNumber;
+		int squareOfFirstNumber = firstNumber * firstNumber;
+		int squareOfSecondNumber = secondNumber * secondNumber;
+	
+
+		int sumOfSquareOfNumber = squareOfFirstNumber + squareOfSecondNumber;
 		int differenceOfSquareOfNumber = squareOfFirstNumber - squareOfSecondNumber;
-
-		System.out.println("The Sum of the square is: "  + sumOfSquareOfNumber);
-		System.out.print("The Difference of the square is:"+ differenceOfSquareOfNumber);
-		
-		
-
-		
 		
 		
 
@@ -29,4 +24,4 @@ import java.util.Scanner;
 }
 
 
-} 
+}
