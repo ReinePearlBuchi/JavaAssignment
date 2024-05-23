@@ -10,15 +10,17 @@ public class LagbajaSchool{
 		System.out.println("How many subject do you offer: ");
 		int subjectOffered = scanner.nextInt();
 
-		System.out.println("Saving" + ">".repeat(20) + "\nSaved Successfully"\n);
+		System.out.println("Saving" + ">".repeat(20) + "\nSaved Successfully");
 		
 		int [][] scores = new int[numberOfStudent][subjectOffered];
 	
 
 		for(int i = 1; i < numberOfStudent; i++){
+		System.out.println("Entering score for Student" + i + ":" );
+		int studentScore = scanner.nextInt();
+ 
 		for(int j = 1; j < numberOfStudent; j++){
-		System.out.println("Entering score for Student" + i + 1 + ":" );
-		System.out.print("Entering score for subject: " + j + ":");
+		System.out.print("Entering score for subject: " + ":");
 		int subjectScore = scanner.nextInt();
 
 			}

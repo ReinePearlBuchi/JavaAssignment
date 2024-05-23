@@ -1,0 +1,6 @@
+		System.out.print("when was your last cycle?");
+		int lastCycleDate = scanner.nextInt();
+
+		System.out.print("How many days did you have your last period for? ");
+		int lastPeriod = scanner.nextInt();
+

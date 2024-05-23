@@ -1,0 +1,15 @@
+public class Days{
+	public static void main(String[] args){
+	
+	Scanner scanner = new Scanner(System.in);
+
+	Sytem.out.print("Enter an integer for days");
+	String days = input.nextLine();
+	
+	int exactDay = 7;
+	 
+
+	}
+
+
+}
